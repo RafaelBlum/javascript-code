@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Aulas de javascript"/>
+
+    <!--========================= Bootstrap CSS - icon =========================-->
+    <link rel="icon" href="public/icons/iconjs.png"/>
+    <link rel="stylesheet" href="public/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="public/css/style.css">
+
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <p class="titulo">Javascript é uma Linguagem dinamica, fracamente tipada. Isto é, as variáveis podem mudar seu tipo a qualquer momento.</p>
+        <div class="row">
+            
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="container">
+                    
+                    <div class="row mt-2">
+                        
+                        <div class="col">
+                            <div>
+                                <h5 class="titulo">"Variaveis, constantes e funções"</h5>
+                                <div>
+                                    <code class="hts">
+                                        <code>var a = 10; const b = 130; let c = "nome"</code><br>
+                                        Funções <code>charAt(4), indexOf('3'), substring(1, 5), replace(/\d/, 'X'), replace(/\w/g, 'X')</code><br>
+                                        <code>'tornei-'.concat(esporte).concat("-[]")</code> : Concatenação<br>
+                                        <code>'maria, leonardo, joao'.split(',')</code> : separa strings e vetoriza<br>
+                                    </code>
+                                </div>
+
+                                <h5 class="titulo">"var | let"</h5>
+                                <div>
+                                    <code class="hts">
+                                        Var <code> tem scope global e local</code><br>
+                                        let <code>tem scope global, local e bloco, isto é, acessivel somente naquele bloco que foi criado.</code>
+                                    </code>
+                                </div>
+
+                                <h5 class="titulo">"Armazenar dados"</h5>
+                                <div>
+                                    <code class="hts">
+                                        typeof a -> <code>number [infinity, NaN], string, boolean, null, undefined, object [Array], function </code>                                         
+                                    </code>
+                                </div>
+
+                                <h5 class="titulo">"Tipos number | Infinity | Match"</h5>
+                                <div>
+                                    <code class="hts">
+                                        <code>const peso = 10.345 | peso.toFixed(2):Arrendondamento</code><br>
+                                        <code>const peso2 = Number('3.0') | let tot = peso * peso2 | Math.pow(raio, 10) / Math.PI</code><br>
+                                    </code>
+                                </div>
+
+                                <h5 class="titulo">"Booleans"</h5>
+                                <div>
+                                    <code class="hts">
+                                        <code>let ativo = true</code><br>
+                                        <code>! </code>negação <code>!! </code>nega a negação, assim verdadeiro<br>
+                                        <code>let ativo = '' console.log(!!ativo || 'DESCONHECIDO')</code> : DESCONHECIDO<br>
+                                    </code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bord col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-2">
+                <h5 class="titulo">"Templates string"</h5>
+                <div>
+                    <code class="hts">
+                        <code>let template = `Template Olá ${tipo}`</code><br>
+                        <code>const getNome = letraMaiuscula => letraMaiuscula.toUpperCase()</code> : função getNome('texto aqui')
+                    </code>
+                </div>
+
+                
+
+                <h5 class="titulo">"Arrays = [ ]"</h5>
+                <div>
+                    <code class="hts">
+                        <code>let array = []</code><br>
+                        <code>push('HTML'), pop(), delete, length</code> : funções<br>
+                    </code>
+                </div>
+
+                <h5 class="titulo">"Objetos"</h5>
+                <div>
+                    <code class="hts">
+                        <code>const user = {</code><br>
+                        "nome": "Rafael",<br>
+                        "email": "teste@hotmail.com"<br>
+                        <code>}</code><br>
+                        Passagem de valores [cópia]:
+                        objetos <code>a passagem é feita por referencia. </code>
+                        tipos primitivos <code>a passagem é feita por valor.</code><br>
+                        <code>let valor [undefined] | valor = null [null]</code>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--========================= Bootstrap core JavaScript =========================-->
+    <script type="text/javascript" src="./public/dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./public/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <!--LINK SCRIPT <script type="text/JavaScript" src="public/js/fundaloops.js"></script> -->
+</body>
+</html>

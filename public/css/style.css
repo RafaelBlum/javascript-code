@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.titulo{
+    font-family: Calibri Light, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: tomato;
+}
+
+.logo{
+    color: tomato;
+    font-weight: 900 bold;
+    font-family: Calibri Light, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.bord{
+    border-right: 2px solid rgba(90, 80, 200, .3);
+}
+
+.menu li{
+    color: tomato;
+    font-family: Calibri Light, Arial, Helvetica, sans-serif;
+}
+
+.hts{
+    border-radius: 5px;
+    color: white;
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #2b2b2b;
+}
+
